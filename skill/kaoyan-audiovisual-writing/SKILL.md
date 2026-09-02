@@ -1,6 +1,6 @@
 ---
 name: kaoyan-audiovisual-writing
-description: "用于中国影视、广播电视、网络视听与数字媒体方向的考研答题训练。处理名词解释、简答和论述的审题拆解、提纲生成、基于材料写作、论文专题整理、概念讲解、答案批改改写和模拟出题，重点适配北师大719/842并以华东师大668作辅助训练；纯粹查询史论基础知识且不涉及答题或写作训练时不使用。"
+description: "用于北京师范大学影视与数字媒体方向的考研答题训练，重点适配719影视戏剧史论和842影视戏剧实践。处理名词解释、简答、论述以及独立的数字媒体实务策划任务，包括审题拆解、提纲、基于材料写作、论文专题整理、概念讲解、批改改写和模拟出题；纯粹查询史论基础知识且不涉及答题或写作训练时不使用。"
 ---
 
 # 考研影视论述训练与写作
@@ -9,7 +9,7 @@ description: "用于中国影视、广播电视、网络视听与数字媒体方
 
 把阅读、专题整理、答题写作和批改统一为同一套思维训练：围绕题目提出问题，按共同框架组织材料，再把材料转化为考场可写的论点、论据和论证。
 
-本 Skill 处理三类题：名词解释、简答、论述。名词解释以知识点为主；简答与论述共用写作引擎，只在任务复杂度、论证层次和篇幅上区分。
+本 Skill 处理三类知识与写作题：名词解释、简答、论述。名词解释以知识点为主；简答与论述共用写作引擎，只在任务复杂度、论证层次和篇幅上区分。北师大842的数字媒体实务策划是独立任务类型，使用设计决策链，不把它伪装成第四种论述题。
 
 ## 不可违反的原则
 
@@ -21,6 +21,7 @@ description: "用于中国影视、广播电视、网络视听与数字媒体方
 6. **结构服务问题，不机械套模板。** 三板块或四板块由题目决定；“是什么—为什么—怎么办”只是候选思路，不是每题必写的固定顺序。
 7. **答案与材料可追溯。** 正文中不堆引用标注；答案后附简短材料清单，说明关键观点、案例和数据来自哪里及其核验状态。
 8. **默认提供双版本。** 完整写作任务输出精简考场版与扩展复习版；用户明确只要一种时服从用户要求。
+9. **概念界定按需出现。** 只有概念含混、存在口径差异或界定直接影响论证时才在引论中解释；不能把名词解释四部法机械套入每道简答和论述。
 
 ## 模式路由
 
@@ -31,7 +32,8 @@ description: "用于中国影视、广播电视、网络视听与数字媒体方
 - **阅读论文并整理专题**：读取 [热点分类体系](references/hotspot-taxonomy.md)、[专题卡与论文提取](references/topic-card-schema.md) 和 [材料与事实完整性](references/source-integrity.md)。
 - **讲解论文或学术概念**：读取 [热点分类体系](references/hotspot-taxonomy.md)；涉及来源、学者或争议时再读取 [材料与事实完整性](references/source-integrity.md)。
 - **答案批改与改写**：读取 [评分与改写](references/grading-and-revision.md)、[写作方法论](references/writing-methodology.md) 和对应的 [院校与考试配置](references/exam-profiles.md)；涉及范文对照时再读取 [范文校准](references/model-calibration.md)。
-- **模拟出题**：读取 [院校与考试配置](references/exam-profiles.md)、[热点分类体系](references/hotspot-taxonomy.md)、[训练与模拟出题](references/training-and-question-generation.md) 和 [评分与改写](references/grading-and-revision.md)。
+- **模拟出题**：读取 [院校与考试配置](references/exam-profiles.md)、[热点分类体系](references/hotspot-taxonomy.md)、[训练与模拟出题](references/training-and-question-generation.md) 和 [评分与改写](references/grading-and-revision.md)；若生成842实务策划题，再读取 [实务策划](references/practical-planning.md)。
+- **842数字媒体实务策划**：读取 [院校与考试配置](references/exam-profiles.md)、[实务策划](references/practical-planning.md) 和 [材料与事实完整性](references/source-integrity.md)；涉及具体热点或技术时再读取 [热点分类体系](references/hotspot-taxonomy.md)。
 
 不要为一次任务加载全部参考文件。
 
