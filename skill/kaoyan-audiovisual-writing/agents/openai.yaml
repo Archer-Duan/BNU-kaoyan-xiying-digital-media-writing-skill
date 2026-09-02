@@ -1,0 +1,4 @@
+interface:
+  display_name: "考研影视论述训练与写作"
+  short_description: "面向影视与数媒考研的审题、专题整理、写作、批改与出题"
+  default_prompt: "Use $kaoyan-audiovisual-writing to 拆解这道影视或数媒考研题，并生成可核验的考场答案。"
